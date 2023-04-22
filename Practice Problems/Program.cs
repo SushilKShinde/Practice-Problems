@@ -13,7 +13,7 @@ namespace Practice_Problems
             Console.WriteLine("Welcome to the practice problems");
             Console.WriteLine("Choose the option from below.\n");
             Console.WriteLine("1.Reverse a string\n2.Check for Palindrom Number\n3.ReadOnly variable\n4.Constant Variables" +
-                "\n5.Pattern 1\n6.Pattern 2\n7.Floyd's triangle\n8.Pattern 3\n9.Pattern 4\n10Pattern 5");
+                "\n5.Pattern 1\n6.Pattern 2\n7.Floyd's triangle\n8.Pattern 3\n9.Pattern 4\n10Pattern 5\n11.Pattern 6");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch(option)
@@ -80,6 +80,14 @@ namespace Practice_Problems
                     //2 2
                     //1
                     Pattern5.PrintPattern();
+                    break;
+                case 11:
+                    //5
+                    //4 5
+                    //3 4 5
+                    //2 3 4 5
+                    //1 2 3 4 5
+                    Pattern6.PrintPattern();
                     break;
                 default:
                     Console.WriteLine("Please choose the valid option");
