@@ -50,6 +50,7 @@
     <Compile Include="Pattern2.cs" />
     <Compile Include="Pattern3.cs" />
     <Compile Include="Pattern4.cs" />
+    <Compile Include="Pattern5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadOnly.cs" />
