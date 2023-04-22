@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConstantVariables.cs" />
+    <Compile Include="Floyd%27sTriangle.cs" />
     <Compile Include="PalindromNumber.cs" />
     <Compile Include="Pattern1.cs" />
     <Compile Include="Pattern2.cs" />
